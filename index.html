@@ -17,7 +17,6 @@
             overflow-x: hidden;
         }
 
-        /* Navbar */
         nav {
             display: flex;
             justify-content: space-between;
@@ -68,8 +67,6 @@
         nav ul li a:hover::after {
             width: 100%;
         }
-
-        /* Hero Section */
         .hero {
             display: flex;
             flex-direction: column;
@@ -96,9 +93,7 @@
 
         .hero h1 span:hover {
             color: #AFFFFD;
-            /* Brighter color */
             text-shadow: 0 0 10px #AFFFFD, 0 0 6px #AFFFFD;
-            /* Glow effect */
         }
 
         .hero p {
@@ -112,7 +107,6 @@
             font-size: 1.2rem;
             border: 2px solid #66D2B2;
             border-radius: 20px;
-            /* Rounded corners */
             background: black;
             color: white;
             cursor: pointer;
@@ -122,17 +116,13 @@
 
         .hero button:hover {
             transform: scale(1.1) rotate(0deg);
-            /* Slight rotation */
             background: #66D2B2;
             box-shadow: 0 10px 15px rgba(102, 210, 178, 0.6);
-            /* Glow effect */
         }
 
         .hero button:active {
             transform: scale(1.05) rotate(0deg);
-            /* Rotate in the opposite direction */
             box-shadow: 0 5px 10px rgba(102, 210, 178, 0.4);
-            /* Reduced shadow */
         }
 
         @keyframes fadeIn {
@@ -147,7 +137,6 @@
             }
         }
 
-        /* Portfolio Section */
         .portfolio {
             padding: 50px 20px;
             background: black;
@@ -205,7 +194,6 @@
             opacity: 1;
         }
 
-        /* Divider */
         .divider {
             height: 2px;
             background: #7FFFD4;
@@ -213,7 +201,6 @@
             width: 100%;
         }
 
-        /* Contact Section */
         .contact {
             padding: 50px 20px;
             background: black;
@@ -289,19 +276,16 @@
             nav .logo {
                 font-size: 1.4rem;
                 max-width: 100px;
-                /* Reduce width for smaller screens */
             }
 
             nav ul {
                 flex-wrap: wrap;
                 justify-content: center;
                 gap: 15px;
-                /* Adjust gap for better fit */
             }
 
             nav ul li a {
                 font-size: 0.9rem;
-                /* Adjust font size for smaller screens */
             }
         }
 
@@ -328,6 +312,36 @@
                 font-size: 0.9rem;
             }
         }
+
+        .figma{
+            display: flex;
+            justify-content: center;
+        }
+
+        .figma button {
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border: 2px solid #66D2B2;
+            border-radius: 20px;
+            background:#66D2B2;
+            color: black;
+            cursor: pointer;
+            transition: transform 0.3s, background 0.3s;
+            margin-top: 80px;
+        }
+
+        .figma button:hover {
+            transform: scale(1.1) rotate(0deg);
+            cursor: pointer;
+            background: #66D2B2;
+            box-shadow: 0 10px 15px rgba(102, 210, 178, 0.6);
+        }
+
+        .figma button:active {
+            transform: scale(1.05) rotate(0deg);
+            box-shadow: 0 5px 10px rgba(102, 210, 178, 0.4);
+        }
     </style>
 </head>
 
@@ -353,103 +367,159 @@
         <h2>My Work</h2>
         <div class="portfolio-grid">
             <div class="portfolio-item">
+                <a href="Day5.png" target="_blank">
                 <img src="Day5.png" alt="Sample Work">
                 <div class="overlay">Sample Work 1</div>
+            </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day13.png" target="_blank">
                 <img src="Day13.png" alt="Sample Work">
                 <div class="overlay">Sample Work 2</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day12.png" target="_blank">
                 <img src="Day12.png" alt="Sample Work">
                 <div class="overlay">Sample Work 3</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day28.png" target="_blank">
                 <img src="Day28.png" alt="Sample Work">
                 <div class="overlay">Sample Work 4</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day25.png" target="_blank">
                 <img src="Day25.png" alt="Sample Work">
                 <div class="overlay">Sample Work 5</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day24.png" target="_blank">
                 <img src="Day24.png" alt="Sample Work">
                 <div class="overlay">Sample Work 6</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day22.png" target="_blank">
                 <img src="Day22.png" alt="Sample Work">
                 <div class="overlay">Sample Work 7</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day20.png" target="_blank">
                 <img src="Day20.png" alt="Sample Work">
                 <div class="overlay">Sample Work 8</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day29.png" target="_blank">
                 <img src="Day29.png" alt="Sample Work">
                 <div class="overlay">Sample Work 9</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day14.png" target="_blank">
                 <img src="Day14.png" alt="Sample Work">
                 <div class="overlay">Sample Work 10</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day10.png" target="_blank">
                 <img src="Day10.png" alt="Sample Work">
                 <div class="overlay">Sample Work 11</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day9.png" target="_blank">
                 <img src="Day9.png" alt="Sample Work">
                 <div class="overlay">Sample Work 12</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day8.png" target="_blank">
                 <img src="Day8.png" alt="Sample Work">
                 <div class="overlay">Sample Work 13</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day7.png" target="_blank"></a>
                 <img src="Day7.png" alt="Sample Work">
                 <div class="overlay">Sample Work 14</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day16.png" target="_blank">
                 <img src="Day16.png" alt="Sample Work">
                 <div class="overlay">Sample Work 15</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day4.png" target="_blank">
                 <img src="Day4.png" alt="Sample Work">
                 <div class="overlay">Sample Work 16</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day3.png" target="_blank">
                 <img src="Day3.png" alt="Sample Work">
                 <div class="overlay">Sample Work 17</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day27.png" target="_blank">
                 <img src="Day27.png" alt="Sample Work">
                 <div class="overlay">Sample Work 18</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day23.png" target="_blank">
                 <img src="Day23.png" alt="Sample Work">
                 <div class="overlay">Sample Work 19</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day16.png" target="_blank">
                 <img src="Day16.png" alt="Sample Work">
                 <div class="overlay">Sample Work 20</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day19.png" target="_blank">
                 <img src="Day19.png" alt="Sample Work">
                 <div class="overlay">Sample Work 21</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="dayy18.png" target="_blank">
                 <img src="dayy18.png" alt="Sample Work">
                 <div class="overlay">Sample Work 22</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day30.png" target="_blank">
                 <img src="Day30.png" alt="Sample Work">
                 <div class="overlay">Sample Work 23</div>
+                </a>
             </div>
             <div class="portfolio-item">
+                <a href="Day17.png" target="_blank">
                 <img src="Day17.png" alt="Sample Work">
                 <div class="overlay">Sample Work 24</div>
+                </a>
             </div>
         </div>
     </section>
+    <!-- <div class="figbag">
+        <div class="figma">
+            <a href="https://www.figma.com/files/team/1401933291989175896/project/299140635/Mosaicra-UI-Daily-Design?fuid=1401933289758491828" target="_blank">All files figma link</a>
+        </div>
+    </div> -->
+    <div class="figma">
+    <button onclick="window.open('https://www.figma.com/files/team/1401933291989175896/project/299140635/Mosaicra-UI-Daily-Design?fuid=1401933289758491828','_blank')">All files Figma link</button>
+    </div>
 
     <div class="divider"></div>
 
@@ -465,11 +535,10 @@
     </section>
 
     <footer>
-        &copy; 2024 Bhargav Krishna. All rights reserved.
+        &copy; 2025 Bhargav Krishna. All rights reserved.
     </footer>
     
     <script>
-        // JavaScript to wrap each letter of the hero text in a span
         document.addEventListener("DOMContentLoaded", () => {
             const heroText = document.querySelector(".hero h1");
             heroText.innerHTML = heroText.textContent
